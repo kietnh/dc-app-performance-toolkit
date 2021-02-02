@@ -30,6 +30,7 @@ def setup_run_data(datasets):
             custom_issue = random.choice(datasets[CUSTOM_ISSUES])
             datasets['custom_issue_key'] = custom_issue[0]
             datasets['custom_issue_id'] = custom_issue[1]
+            datasets['custom_project_key'] = custom_issue[2]
     scrum_boards = random.choice(datasets[SCRUM_BOARDS])
     kanban_boards = random.choice(datasets[KANBAN_BOARDS])
     projects = random.choice(datasets[PROJECTS])
